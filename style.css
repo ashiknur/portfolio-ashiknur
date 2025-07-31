@@ -1,0 +1,58 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/home/homepageimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 60vh;
+}
+
+#homepageimg {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.about-section {
+    background-color: #a9b4c2;
+    padding: 50px 0;
+}
+
+.about-section h1, .about-section p {
+    color: #333;
+}
+
+
+.navbar {
+    z-index: 10;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-link.active {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.navbar .navbar-brand:hover, .navbar .nav-link:hover {
+    color: rgba(230, 224, 224, 0.75);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.mainbody{
+    background-color: #B0BEC5;
+}
